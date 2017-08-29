@@ -47,7 +47,7 @@ namespace DrivePoly
                 string fileExtension = openFileDialog.SafeFileName.Split('.')[1];
                 labelFileName.Text = openFileDialog.SafeFileName;
 
-                if (fileExtension == "docx" || fileExtension == "excel")
+                if (fileExtension == "docx" || fileExtension == "doc")
                 {
                     mimeType = "application/msword";
                     StatusSelect = true;
